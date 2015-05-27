@@ -40,7 +40,7 @@
   @include responsive-visibility('.visible-xl.visible-md');
 }
 
-@media (min-width: $screen-lg) and (max-width: $screen-md-max) {
+@media (min-width: $screen-lg) and (max-width: $screen-lg-max) {
   @include responsive-visibility('.visible-xl.visible-lg');
 }
 
@@ -92,4 +92,9 @@
 
 @media (min-width: $screen-xl) {
   @include responsive-invisibility('.hidden-xl');
+}
+
+
+@media (min-width: $screen-xl) {
+  @include responsive-invisibility('.visible-lg');
 }
